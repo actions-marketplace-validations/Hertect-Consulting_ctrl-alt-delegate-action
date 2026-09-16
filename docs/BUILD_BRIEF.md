@@ -56,4 +56,4 @@ Done means step 7 evidence and the Marketplace listing live. Three days.
 Marketplace name: Ctrl Alt Delegate
 Marketplace description: Checks the instruction files your AI coding agents follow and fails the pull request when they're wrong. Free for any repo.
 Workflow usage: uses: Hertect-Consulting/ctrl-alt-delegate-action@v1
-Word rules from docs/positioning/CAD_COPY.md apply. "Instruction files" in every sentence; "manual" banned; full name first.
+Word rules from docs/COPY.md apply. "Instruction files" in every sentence; "manual" banned; full name first.
