@@ -2,7 +2,11 @@
 
 [![CI](https://github.com/Hertect-Consulting/ctrl-alt-delegate-action/actions/workflows/ci.yml/badge.svg)](https://github.com/Hertect-Consulting/ctrl-alt-delegate-action/actions/workflows/ci.yml)
 
-Checks the instruction files your AI coding agents follow and fails the pull request when they're wrong. Free for any repo.
+AI coding tools like Claude Code, GitHub Copilot, and Cursor read a file in your repo before they do any work. AGENTS.md, CLAUDE.md, a Copilot instructions file, a Cursor rule. It tells them how to test, what not to touch, which commands to run. That file is how your agents get told what to do.
+
+Those files go stale. The command it names gets renamed. The folder it points at moves. Two files in the same repo say different things. The agent follows the file anyway, and nothing tells you.
+
+Ctrl Alt Delegate reads those files on every pull request and fails the check when they're wrong. Free for any repo.
 
 ## Install
 
