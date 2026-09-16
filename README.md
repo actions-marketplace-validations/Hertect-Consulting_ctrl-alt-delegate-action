@@ -1,4 +1,4 @@
-# Ctrl Alt Delegate
+[<img src="docs/brand/ctrl-alt-delegate-wordmark.png" width="480" alt="Ctrl Alt Delegate">](https://hertect.com/ctrl-alt-delegate)
 
 [![CI](https://github.com/Hertect-Consulting/ctrl-alt-delegate-action/actions/workflows/ci.yml/badge.svg)](https://github.com/Hertect-Consulting/ctrl-alt-delegate-action/actions/workflows/ci.yml)
 
