@@ -20,6 +20,7 @@ One Claude Code session, its own worktree, owns this repo. No second session. Se
 ## Current run
 
 - 2026-09-16: session executed docs/BUILD_BRIEF.md build order through step 7 (workflow rollout to ctrl-alt-delegate, hertect, her — Loud Silences is not a dogfood repo and must never be). Stopped before step 8 (tag v1.0.0/v1 + Marketplace publish) for a short report.
+- No further PRs on this repo for the rest of 2026-09-16. Two small items are queued and must land together, not separately: the "Wrong? Tell us" feedback link and the issue templates. Open them as one PR titled "Add feedback link and issue templates," targeting v1.0.1, on 2026-09-17 or later.
 
 ## Boundaries
 
