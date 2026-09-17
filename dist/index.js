@@ -37191,7 +37191,7 @@ const TAGLINE_LINK = "[hertect.com/ctrl-alt-delegate](https://hertect.com/ctrl-a
 function buildComment(result) {
     const lines = [COMMENT_MARKER, "## Ctrl Alt Delegate", ""];
     if (result.findings.length === 0) {
-        lines.push(`No findings across ${result.ruleCount} rule(s) in ${result.fileCount} instruction file(s).`, "");
+        lines.push(`No findings across ${result.ruleCount} rule(s) in ${result.fileCount} file(s).`, "");
     }
     else {
         for (const check of CHECK_ORDER) {

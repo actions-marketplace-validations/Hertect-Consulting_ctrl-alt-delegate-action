@@ -18,7 +18,7 @@ export function buildComment(result: RunResult): string {
 
   if (result.findings.length === 0) {
     lines.push(
-      `No findings across ${result.ruleCount} rule(s) in ${result.fileCount} instruction file(s).`,
+      `No findings across ${result.ruleCount} rule(s) in ${result.fileCount} file(s).`,
       "",
     );
   } else {

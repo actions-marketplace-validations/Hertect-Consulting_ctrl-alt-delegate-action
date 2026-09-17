@@ -2,6 +2,10 @@
 
 [![CI](https://github.com/Hertect-Consulting/ctrl-alt-delegate-action/actions/workflows/ci.yml/badge.svg)](https://github.com/Hertect-Consulting/ctrl-alt-delegate-action/actions/workflows/ci.yml)
 
+**Your AI tools know your version. Ctrl Alt Delegate knows everyone's.**
+
+Every rule, skill, AI tool, and codebase. Where it lives. What it touches. Who owns it. What changed since anyone last checked it.
+
 AI coding tools like Claude Code, GitHub Copilot, and Cursor read a file in your repo before they do any work. AGENTS.md, CLAUDE.md, a Copilot instructions file, a Cursor rule. It tells them how to test, what not to touch, which commands to run. That file is how your agents get told what to do.
 
 Those files go stale. The command it names gets renamed. The folder it points at moves. Two files in the same repo say different things. The agent follows the file anyway, and nothing tells you.
@@ -25,7 +29,7 @@ jobs:
       - uses: Hertect-Consulting/ctrl-alt-delegate-action@v1
 ```
 
-`fail-on` sets what fails the check: `all` (default), `dead-only` (dead command and dead path findings only), or `none` to report without going red. `paths` adds extra instruction-file globs to discover, on top of the built-in list below.
+`fail-on` sets what fails the check: `all` (default), `dead-only` (dead command and dead path findings only), or `none` to report without going red. `paths` adds extra file globs to discover, on top of the built-in rules-and-skills list below.
 
 ## What it checks
 
@@ -40,7 +44,7 @@ One sticky PR comment, grouped by check, updated on each run — never a new com
 
 ## What it reads
 
-These instruction files, at the pull request's head commit:
+The rules and skills in these files, at the pull request's head commit:
 
 - `AGENTS.md` (root and nested)
 - `CLAUDE.md`, following one level of `@import`
