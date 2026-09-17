@@ -25,3 +25,7 @@ One Claude Code session, its own worktree, owns this repo. No second session. Se
 
 - The Action itself never writes to the repo it scans, opens PRs, rewrites rules, sends data anywhere, looks at other repos, or keeps state between runs — see docs/BUILD_BRIEF.md "Never" list.
 - This session never touches main of another repo, Production, HER, or Playdentity.
+
+## Commit and PR rules
+
+This repository is public. PR titles and commit subjects describe the change in plain terms: what changed. Never the reason, the mistake being fixed, or the internal discussion that led to it. A reason, when one is worth recording, goes in the PR body, in one line.
